@@ -1,0 +1,42 @@
+﻿@model Tarefa;
+
+<form method="post" asp-action="Create" asp-controller="Tarefa">
+    <div class="d-flex">
+        <div>
+            <div>
+                <label asp-for="Id" class="form-label"></label>
+            </div>
+            <div>
+                <input type="text" asp-for="Id" class="form-control" />
+            </div>
+        </div>
+        <div>
+            <div>
+                <label asp-for="Descricao" class="form-label"></label>
+            </div>
+            <div>
+                <input type="text" asp-for="Descricao" class="form-control" />
+            </div>
+        </div>
+    </div>
+    <div class="d-flex">
+        <div>
+            <div>
+                <label asp-for="DataInicio" class="form-label"></label>
+            </div>
+            <div>
+                <input type="date" asp-for="DataInicio" class="form-control" />
+            </div>
+        </div>
+        <div>
+            <div>
+                <label asp-for="DataFim" class="form-label"></label>
+            </div>
+            <div>
+                <input type="date" asp-for="DataFim" class="form-control" />
+            </div>
+        </div>
+
+    </div>
+    <button class="btn btn-primary">Salvar</button>
+</form>
