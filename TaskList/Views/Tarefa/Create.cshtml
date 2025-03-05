@@ -1,13 +1,23 @@
 ﻿@model Tarefa;
 
 <form method="post" asp-action="Create" asp-controller="Tarefa">
-    <div class="d-flex">
+@*     @{
+        if (ViewBag.Mensagem != null)
+        {
+            <div>
+                <span class="text-success">@ViewBag.Mensagem</span>
+            </div>
+        }
+    } *@
+
+    <div class="d-flex" style="gap: 25px">
         <div>
             <div>
                 <label asp-for="Id" class="form-label"></label>
             </div>
             <div>
                 <input type="text" asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
             </div>
         </div>
         <div>
@@ -16,16 +26,18 @@
             </div>
             <div>
                 <input type="text" asp-for="Descricao" class="form-control" />
+                <span asp-validation-for="Descricao" class="text-danger"></span>
             </div>
         </div>
     </div>
-    <div class="d-flex">
+    <div class="d-flex" style="gap: 25px">
         <div>
             <div>
                 <label asp-for="DataInicio" class="form-label"></label>
             </div>
             <div>
                 <input type="date" asp-for="DataInicio" class="form-control" />
+                <span asp-validation-for="DataInicio" class="text-danger"></span>
             </div>
         </div>
         <div>
@@ -40,3 +52,13 @@
     </div>
     <button class="btn btn-primary">Salvar</button>
 </form>
+
+@section Scripts {
+    <script>
+        const mensagem = "@ViewBag.Mensagem"
+
+        if (mensagem != "") {
+            alert(mensagem);
+        }
+    </script>
+}

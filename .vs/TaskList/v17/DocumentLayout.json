@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Projetos\\GitHub\\ASP .NET MVC\\TaskList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3488D934-4478-4B2B-BD52-4569BF6F0EA6}|TaskList\\TaskList.csproj|c:\\projetos\\github\\asp .net mvc\\tasklist\\tasklist\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3488D934-4478-4B2B-BD52-4569BF6F0EA6}|TaskList\\TaskList.csproj|solutionrelative:tasklist\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3488D934-4478-4B2B-BD52-4569BF6F0EA6}|TaskList\\TaskList.csproj|c:\\projetos\\github\\asp .net mvc\\tasklist\\tasklist\\views\\tarefa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3488D934-4478-4B2B-BD52-4569BF6F0EA6}|TaskList\\TaskList.csproj|solutionrelative:tasklist\\views\\tarefa\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3488D934-4478-4B2B-BD52-4569BF6F0EA6}|TaskList\\TaskList.csproj|c:\\projetos\\github\\asp .net mvc\\tasklist\\tasklist\\models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3488D934-4478-4B2B-BD52-4569BF6F0EA6}|TaskList\\TaskList.csproj|solutionrelative:tasklist\\models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3488D934-4478-4B2B-BD52-4569BF6F0EA6}|TaskList\\TaskList.csproj|c:\\projetos\\github\\asp .net mvc\\tasklist\\tasklist\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3488D934-4478-4B2B-BD52-4569BF6F0EA6}|TaskList\\TaskList.csproj|solutionrelative:tasklist\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3488D934-4478-4B2B-BD52-4569BF6F0EA6}|TaskList\\TaskList.csproj|c:\\projetos\\github\\asp .net mvc\\tasklist\\tasklist\\views\\tarefa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3488D934-4478-4B2B-BD52-4569BF6F0EA6}|TaskList\\TaskList.csproj|solutionrelative:tasklist\\views\\tarefa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3488D934-4478-4B2B-BD52-4569BF6F0EA6}|TaskList\\TaskList.csproj|c:\\projetos\\github\\asp .net mvc\\tasklist\\tasklist\\views\\tarefa\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3488D934-4478-4B2B-BD52-4569BF6F0EA6}|TaskList\\TaskList.csproj|solutionrelative:tasklist\\views\\tarefa\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Projetos\\GitHub\\ASP .NET MVC\\TaskList\\TaskList\\Views\\Tarefa\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TaskList\\Views\\Tarefa\\Edit.cshtml",
+              "ToolTip": "C:\\Projetos\\GitHub\\ASP .NET MVC\\TaskList\\TaskList\\Views\\Tarefa\\Edit.cshtml",
+              "RelativeToolTip": "TaskList\\Views\\Tarefa\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T20:51:40.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projetos\\GitHub\\ASP .NET MVC\\TaskList\\TaskList\\Views\\Tarefa\\Index.cshtml",
+              "RelativeDocumentMoniker": "TaskList\\Views\\Tarefa\\Index.cshtml",
+              "ToolTip": "C:\\Projetos\\GitHub\\ASP .NET MVC\\TaskList\\TaskList\\Views\\Tarefa\\Index.cshtml",
+              "RelativeToolTip": "TaskList\\Views\\Tarefa\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T20:32:16.87Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,33 +66,33 @@
               "RelativeDocumentMoniker": "TaskList\\Models\\Tarefa.cs",
               "ToolTip": "C:\\Projetos\\GitHub\\ASP .NET MVC\\TaskList\\TaskList\\Models\\Tarefa.cs",
               "RelativeToolTip": "TaskList\\Models\\Tarefa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T22:05:57.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Projetos\\GitHub\\ASP .NET MVC\\TaskList\\TaskList\\Views\\Tarefa\\Create.cshtml",
               "RelativeDocumentMoniker": "TaskList\\Views\\Tarefa\\Create.cshtml",
               "ToolTip": "C:\\Projetos\\GitHub\\ASP .NET MVC\\TaskList\\TaskList\\Views\\Tarefa\\Create.cshtml",
               "RelativeToolTip": "TaskList\\Views\\Tarefa\\Create.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-04T22:03:10.939Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TarefaController.cs",
               "DocumentMoniker": "C:\\Projetos\\GitHub\\ASP .NET MVC\\TaskList\\TaskList\\Controllers\\TarefaController.cs",
               "RelativeDocumentMoniker": "TaskList\\Controllers\\TarefaController.cs",
               "ToolTip": "C:\\Projetos\\GitHub\\ASP .NET MVC\\TaskList\\TaskList\\Controllers\\TarefaController.cs",
               "RelativeToolTip": "TaskList\\Controllers\\TarefaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwE0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T22:00:00.468Z",
               "EditorCaption": ""
