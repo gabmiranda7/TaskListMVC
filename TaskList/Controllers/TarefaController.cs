@@ -1,11 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TaskList.Models;
 using System.Data;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace TaskList.Controllers
 {
     public class TarefaController : Controller
     {
+        private AppDbContext _context;
+
+        public TarefaController(AppDbContext context)
+        {
+            _context = context;
+        }
+
         public IActionResult Index()
         {
             var lista = new List<Tarefa>();
@@ -47,6 +55,11 @@ namespace TaskList.Controllers
         [HttpGet]
         public IActionResult Create()
         {
+            ViewData["Categorias"] = new SelectList(_context.Categorias.ToList(), "Id", "Nome");
+            ViewData["Prioridades"] = new SelectList(_context.Prioridades.ToList(), "Id", "Nome");
+            ViewData["Responsaveis"] = new SelectList(_context.Responsaveis.ToList(), "Id", "Nome");
+            ViewData["Status"] = new SelectList(_context.Status.ToList(), "Id", "Nome");
+
             return View();
         }
 
