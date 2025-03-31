@@ -5,7 +5,6 @@ namespace TaskList.Models
 {
     public class Tarefa
     {
-        [Required(ErrorMessage = "O campo ID é obrigatório!")]
         [Display(Name = "ID da Tarefa")]
         [Range( 0, int.MaxValue, ErrorMessage = "Insira um valor válido.")]
         [Key]
@@ -27,27 +26,27 @@ namespace TaskList.Models
         [ForeignKey("Prioridade")]
         [Display(Name = "Prioridade")]
         public int PrioridadeId { get; set; }
-        public virtual Prioridade Prioridade { get; set; }
+        public virtual Prioridade? Prioridade { get; set; }
 
         [ForeignKey("Categoria")]
         [Display(Name = "Categoria")]
         public int CategoriaId { get; set; }
-        public virtual Categoria Categoria { get; set; }
+        public virtual Categoria? Categoria { get; set; }
 
         [ForeignKey("Status")]
         [Display(Name = "Status")]
         public int StatusId { get; set; }
-        public virtual Status Status { get; set; }
+        public virtual Status? Status { get; set; }
 
         [ForeignKey("Responsavel")]
         [Display(Name = "Responsável")]
         public int ResponsavelId { get; set; }
-        public virtual Responsavel Responsavel { get; set; }
+        public virtual Responsavel? Responsavel { get; set; }
 
 
         public DateTime PrazoConclusao { get; set; }
 
         [MaxLength(5000)]
-        public string Observacao { get; set; }
+        public string? Observacao { get; set; }
     }
 }
